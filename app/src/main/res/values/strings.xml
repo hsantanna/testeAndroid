@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">testeAndroid</string>
+    <string name="ola_mundo">Olá mundo!</string>
+</resources>
