@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     fun exibirTexto(view: View){
-        val editText = findViewById<EditText>(R.id.editTextText)
+        val editText = findViewById<EditText>(R.id.editTextNome)
         // Toast.makeText(this, "Chamou: ${editText.text.toString()}", Toast.LENGTH_SHORT).show()
 
         val intento = Intent(context, segundaActivity::class.java)
